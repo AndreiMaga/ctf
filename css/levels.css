@@ -1,0 +1,15 @@
+form input {
+    text-align: center;
+    width: 100%;
+}
+
+form input.submit {
+    height: 5%;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 0;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px rgba(224, 36, 113, 1), -5px -10px 10px rgba(35, 105, 193, 1);
+}

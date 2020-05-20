@@ -1,0 +1,38 @@
+.container {
+    color: white;
+    padding: 2px 16px;
+    text-align: center;
+}
+
+.container img {
+    width: 20%;
+}
+
+.container p {
+    text-align: center;
+}
+
+.ab {
+    width: 20%;
+    position: absolute;
+}
+
+.ctf {
+    left: 33%;
+}
+
+.git {
+    left: 66%;
+}
+
+.git a {
+    text-decoration: none;
+}
+
+.ctf-flag {
+    color: rgba(224, 36, 113, 1);
+}
+
+.git-icon {
+    color: rgba(35, 105, 193, 1);
+}

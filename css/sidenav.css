@@ -1,0 +1,60 @@
+body {
+    background-color: #454545;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #555555;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+#main {
+    padding: 20px;
+    margin-left: 250px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.username {
+    color: #fff;
+}
+
+.title {
+    color: #fff;
+}
+
+.points {
+    color: #fff;
+}

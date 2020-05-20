@@ -1,0 +1,33 @@
+.level {
+    position: relative;
+    display: inline-block;
+    top: 20%;
+    background-color: white;
+    padding: 2.5rem 1.875rem 1.875rem 1.875rem;
+    border-radius: 10px;
+    max-width: 30%;
+    max-height: 20%;
+}
+
+.level-name {
+    font-weight: bold;
+}
+
+.level-desc {
+    color: #999999;
+}
+
+div.level form .submit {
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 90px;
+    border: 0;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-left: -5px;
+    border-radius: 5px;
+    background-color: rgba(35, 105, 193, 1);
+    box-shadow: 5px 5px 5px rgba(224, 36, 113, 1);
+}
