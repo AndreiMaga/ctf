@@ -39,7 +39,7 @@
     <?php require "sidenav.php" ?>
 
     <div id="main">
-        <form ction="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="feedback" name="feedback">
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" class="feedback" name="feedback">
             <input type="text" placeholder="Email" name="Email">
             <br>
             <input type="text" placeholder="Subject" name="Subject">
